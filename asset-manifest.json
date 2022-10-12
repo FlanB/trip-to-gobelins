@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/trip-to-gobelins/static/css/main.40d5af4d.css",
+    "main.js": "/trip-to-gobelins/static/js/main.8adb01f2.js",
+    "index.html": "/trip-to-gobelins/index.html",
+    "main.40d5af4d.css.map": "/trip-to-gobelins/static/css/main.40d5af4d.css.map",
+    "main.8adb01f2.js.map": "/trip-to-gobelins/static/js/main.8adb01f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40d5af4d.css",
+    "static/js/main.8adb01f2.js"
+  ]
+}
