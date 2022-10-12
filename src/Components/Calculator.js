@@ -58,9 +58,13 @@ export default function Calculator () {
 				case "+" :
 				case "-" :
 				case "*" :
-					dispatch({ type: "firstValue", payload: inputValue })
-					dispatch({ type: "secondValue", payload: "" })
-					dispatch({ type: "operator", payload: textContent })
+					if (inputValue) {
+						dispatch({ type: "firstValue", payload: inputValue })
+						dispatch({ type: "secondValue", payload: "" })
+						dispatch({ type: "operator", payload: textContent })
+					} else {
+						dispatch({ type: "operator", payload: textContent })
+					}
 					break
 				default :
 					console.error("Unknown operator", e)
